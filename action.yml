@@ -1,0 +1,31 @@
+---
+name: 'kubectl'
+description: 'Apply Kubrnetes manifests to cluster'
+author: 'actionhippie'
+
+inputs:
+  config:
+    description: |
+      Kubeconfig in base64 encoded format
+    required: true
+
+  args:
+    description: |
+      All arguments to append to kubectl
+    required: true
+
+  namespace:
+    description: |
+      The namespace to add to the command
+    required: false
+
+  content:
+    description: |
+      Optional content to be piped into kubectl
+    required: false
+
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/actionhippie/kubectl:v1'
+
+...

@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+if [[ -n "${INPUT_CONFIG}" ]]; then
+    mkdir -p ${HOME}/.kube
+    echo "${INPUT_CONFIG}" | base64 --decode >| ${HOME}/.kube/config
+fi
+
+pushd "${GITHUB_WORKSPACE}/${INPUT_WORKINGDIR}" >/dev/null
+    ARGS=()
+
+    if [[ -n "${INPUT_NAMESPACE}" ]]; then
+        ARGS+=(--namespace "${INPUT_NAMESPACE}")
+    fi
+
+    if [[ -n "${INPUT_ARGS}" ]]; then
+        ARGS+=(${INPUT_ARGS})
+    fi
+
+    if [[ -n "${INPUT_CONTENT}" ]]; then
+        echo "${INPUT_CONTENT}" | kubectl "${ARGS[@]}"
+    else
+        kubectl "${ARGS[@]}"
+    fi
+popd >/dev/null
