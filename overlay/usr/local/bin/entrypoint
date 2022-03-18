@@ -3,7 +3,7 @@ set -eo pipefail
 
 if [[ -n "${INPUT_CONFIG}" ]]; then
     mkdir -p ${HOME}/.kube
-    echo "${INPUT_CONFIG}" | base64 --decode >| ${HOME}/.kube/config
+    echo "${INPUT_CONFIG}" | base64 -d >| ${HOME}/.kube/config
 fi
 
 pushd "${GITHUB_WORKSPACE}/${INPUT_WORKINGDIR}" >/dev/null
