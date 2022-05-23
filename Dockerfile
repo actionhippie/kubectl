@@ -1,4 +1,4 @@
-FROM alpine:3.15 as build
+FROM alpine:3.16 as build
 
 # renovate: datasource=github-releases depName=kubernetes/kubernetes
 ENV KUBECTL_VERSION=1.24.0
@@ -20,7 +20,7 @@ RUN apk add --no-cache curl && \
     esac && \
     chmod +x /tmp/kubectl
 
-FROM alpine:3.15
+FROM alpine:3.16
 
 RUN apk add --no-cache bash
 
