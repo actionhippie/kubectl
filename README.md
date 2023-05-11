@@ -1,6 +1,6 @@
 # kubectl
 
-[![Current Tag](https://img.shields.io/github/v/tag/actionhippie/kubectl?sort=semver)](https://github.com/actionhippie/kubectl) [![Docker Build](https://github.com/actionhippie/kubectl/workflows/docker/badge.svg)](https://github.com/actionhippie/kubectl/actions?query=workflow%3Adocker)
+[![Current Tag](https://img.shields.io/github/v/tag/actionhippie/kubectl?sort=semver)](https://github.com/actionhippie/kubectl) [![Docker Build](https://github.com/actionhippie/kubectl/workflows/docker/badge.svg)](https://github.com/actionhippie/kubectl/actions/workflows/docker.yml)
 
 [GitHub Action](https://github.com/features/actions) to apply Kubernetes manifests.
 

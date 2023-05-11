@@ -5,16 +5,19 @@
         ":semanticCommitType(deps)",
         ":automergeMinor"
     ],
-    "regexManagers": [{
-        "fileMatch": [
-            "Dockerfile"
-        ],
-        "matchStrings": [
-            "# renovate: datasource=(?<datasource>\\S+) depName=(?<depName>\\S+)( versioning=(?<versioning>.*?))?\nENV .*?_VERSION=(?<currentValue>.*)"
-        ],
-        "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
-    }],
-    "packageRules": [{
+    "regexManagers": [
+        {
+            "fileMatch": [
+                "Dockerfile"
+            ],
+            "matchStrings": [
+                "# renovate: datasource=(?<datasource>\\S+) depName=(?<depName>\\S+)( versioning=(?<versioning>.*?))?\nENV .*?_VERSION=(?<currentValue>.*)"
+            ],
+            "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
+        }
+    ],
+    "packageRules": [
+        {
             "description": "Strip prefix from kustomize",
             "groupName": "version prefix",
             "matchDatasources": [
@@ -43,8 +46,8 @@
                 "minor",
                 "patch"
             ],
-            "semanticCommitType": "deps",
-            "semanticCommitScope": "minor",
+            "semanticCommitType": "minor",
+            "semanticCommitScope": "deps",
             "automerge": true
         },
         {
@@ -56,8 +59,8 @@
             "matchUpdateTypes": [
                 "major"
             ],
-            "semanticCommitType": "deps",
-            "semanticCommitScope": "major",
+            "semanticCommitType": "major",
+            "semanticCommitScope": "deps",
             "automerge": true
         },
         {
@@ -69,8 +72,8 @@
             "matchUpdateTypes": [
                 "minor"
             ],
-            "semanticCommitType": "deps",
-            "semanticCommitScope": "minor",
+            "semanticCommitType": "minor",
+            "semanticCommitScope": "deps",
             "automerge": true
         },
         {
@@ -82,8 +85,8 @@
             "matchUpdateTypes": [
                 "patch"
             ],
-            "semanticCommitType": "deps",
-            "semanticCommitScope": "patch",
+            "semanticCommitType": "patch",
+            "semanticCommitScope": "deps",
             "automerge": true
         }
     ],
