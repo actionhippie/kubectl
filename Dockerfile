@@ -1,7 +1,7 @@
 FROM alpine:3.18 as build
 
 # renovate: datasource=github-releases depName=kubernetes/kubernetes
-ENV KUBECTL_VERSION=1.27.2
+ENV KUBECTL_VERSION=1.27.3
 
 ARG TARGETARCH
 
