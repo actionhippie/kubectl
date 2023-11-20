@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/actionhippie/kubectl/compare/v1.1.3...v1.1.4) (2023-11-20)
+
+
+### Bugfixes
+
+* **deps:** update dependency kubernetes/kubernetes to v1.28.4 ([dd3e34d](https://github.com/actionhippie/kubectl/commit/dd3e34db4fe9c2a39304101c925b172f38da2211))
+
 ## [1.1.3](https://github.com/actionhippie/kubectl/compare/v1.1.2...v1.1.3) (2023-10-23)
 
 
