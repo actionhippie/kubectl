@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/actionhippie/kubectl/compare/v1.1.4...v1.2.0) (2023-12-11)
+
+
+### Features
+
+* **deps:** update alpine docker tag to v3.19 ([eb7b23b](https://github.com/actionhippie/kubectl/commit/eb7b23bcc39540608cc932c1fbc46358870c660d))
+
 ## [1.1.4](https://github.com/actionhippie/kubectl/compare/v1.1.3...v1.1.4) (2023-11-20)
 
 
