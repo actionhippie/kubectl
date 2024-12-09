@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/actionhippie/kubectl/compare/v1.6.3...v1.7.0) (2024-12-09)
+
+
+### Features
+
+* **deps:** update alpine docker tag to v3.21 ([#67](https://github.com/actionhippie/kubectl/issues/67)) ([31b5004](https://github.com/actionhippie/kubectl/commit/31b50041d7b22b01d5ae9c1d21ee3e5c7aad9b3f))
+
 ## [1.6.3](https://github.com/actionhippie/kubectl/compare/v1.6.2...v1.6.3) (2024-11-25)
 
 
