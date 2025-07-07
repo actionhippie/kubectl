@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.9.0](https://github.com/actionhippie/kubectl/compare/v1.8.1...v1.9.0) (2025-07-07)
+
+
+### Features
+
+* **deps:** update alpine docker tag to v3.22 ([#76](https://github.com/actionhippie/kubectl/issues/76)) ([6261e99](https://github.com/actionhippie/kubectl/commit/6261e9957f671a7033931682d4b43f905d7e4ab2))
+* **deps:** update dependency kubernetes/kubernetes to v1.33.0 ([#74](https://github.com/actionhippie/kubectl/issues/74)) ([3a449ca](https://github.com/actionhippie/kubectl/commit/3a449ca34b978a70f2397c36d2f9f1c05b75b16d))
+* replace release workflow and add workflow langserver ref ([3f0e94c](https://github.com/actionhippie/kubectl/commit/3f0e94cbb0a20a16a88a43645f843942b4078d56))
+
+
+### Bugfixes
+
+* **deps:** update dependency kubernetes/kubernetes to v1.32.2 ([#71](https://github.com/actionhippie/kubectl/issues/71)) ([26a7c96](https://github.com/actionhippie/kubectl/commit/26a7c961031ead2f20786567890ee96f8343d82a))
+* **deps:** update dependency kubernetes/kubernetes to v1.32.3 ([#72](https://github.com/actionhippie/kubectl/issues/72)) ([7abf7d6](https://github.com/actionhippie/kubectl/commit/7abf7d6a4d2171c850bac479f7f7b18a86d8c823))
+* **deps:** update dependency kubernetes/kubernetes to v1.32.4 ([#73](https://github.com/actionhippie/kubectl/issues/73)) ([e428b78](https://github.com/actionhippie/kubectl/commit/e428b78d5888f358a7aff6f0a36877b9dc9d2de1))
+* **deps:** update dependency kubernetes/kubernetes to v1.33.1 ([#75](https://github.com/actionhippie/kubectl/issues/75)) ([84c2014](https://github.com/actionhippie/kubectl/commit/84c201461c7db4347932788216bb18238389a08a))
+* **deps:** update dependency kubernetes/kubernetes to v1.33.2 ([#77](https://github.com/actionhippie/kubectl/issues/77)) ([58ee82c](https://github.com/actionhippie/kubectl/commit/58ee82c2ecbfeaadfdd028d6ba830e774f0352d0))
+
 ## [1.8.1](https://github.com/actionhippie/kubectl/compare/v1.8.0...v1.8.1) (2025-01-20)
 
 
