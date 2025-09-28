@@ -1,7 +1,11 @@
 ---
-name: 'kubectl'
+# yaml-language-server: $schema=https://www.schemastore.org/github-action.json
+name: 'actionhippie-kubectl'
 description: 'Apply Kubrnetes manifests to cluster'
 author: 'actionhippie'
+branding:
+  icon: box
+  color: green
 
 inputs:
   config:
