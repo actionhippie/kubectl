@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.2](https://github.com/actionhippie/kubectl/compare/v1.10.1...v1.10.2) (2025-09-29)
+
+
+### Bugfixes
+
+* **deps:** pin alpine docker tag to 4bcff63 ([#84](https://github.com/actionhippie/kubectl/issues/84)) ([9254719](https://github.com/actionhippie/kubectl/commit/925471917143d4c9be69182f605b20bc9b86d178))
+
 ## [1.10.1](https://github.com/actionhippie/kubectl/compare/v1.10.0...v1.10.1) (2025-09-15)
 
 
