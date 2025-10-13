@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.10.3](https://github.com/actionhippie/kubectl/compare/v1.10.2...v1.10.3) (2025-10-13)
+
 ## [1.10.2](https://github.com/actionhippie/kubectl/compare/v1.10.1...v1.10.2) (2025-09-29)
 
 
