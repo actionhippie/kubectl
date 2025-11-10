@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/actionhippie/kubectl/compare/v1.10.3...v1.11.0) (2025-11-10)
+
+
+### Features
+
+* integrate amd64 and arm64 support ([01b9b4b](https://github.com/actionhippie/kubectl/commit/01b9b4b63db3d344ab90409ab92edd7e0c68c25c))
+
 ## [1.10.3](https://github.com/actionhippie/kubectl/compare/v1.10.2...v1.10.3) (2025-10-13)
 
 ## [1.10.2](https://github.com/actionhippie/kubectl/compare/v1.10.1...v1.10.2) (2025-09-29)
