@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.13.0](https://github.com/actionhippie/kubectl/compare/v1.12.1...v1.13.0) (2025-12-22)
+
 ## [1.12.1](https://github.com/actionhippie/kubectl/compare/v1.12.0...v1.12.1) (2025-12-15)
 
 ## [1.12.0](https://github.com/actionhippie/kubectl/compare/v1.11.1...v1.12.0) (2025-12-08)
