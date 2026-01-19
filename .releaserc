@@ -108,7 +108,7 @@
                             "action.yml"
                         ],
                         "from": "'docker://ghcr.io/actionhippie/kubectl:.*'",
-                        "to": "'docker://ghcr.io/actionhippie/kubectl:${nextRelease.version}'",
+                        "to": "'docker://ghcr.io/actionhippie/kubectl:v${nextRelease.version}'",
                         "results": [
                             {
                                 "file": "action.yml",
