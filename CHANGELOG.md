@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.13.2](https://github.com/actionhippie/kubectl/compare/v1.13.1...v1.13.2) (2026-02-02)
+
+### Dependencies
+
+* **patch:** update alpine:3.23 docker digest to 2510918 ([#109](https://github.com/actionhippie/kubectl/issues/109)) ([971aec5](https://github.com/actionhippie/kubectl/commit/971aec5615c67b736d7f3ba69523d416d8e7e443))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([d46af14](https://github.com/actionhippie/kubectl/commit/d46af144aada29142bcf68c82a4aea2905774a3b))
+* **flake:** updated lockfile [skip ci] ([a9c66aa](https://github.com/actionhippie/kubectl/commit/a9c66aa0a13869e8f60a6215164e5ceb18cc5a8d))
+
 ## [1.13.1](https://github.com/actionhippie/kubectl/compare/v1.13.0...v1.13.1) (2026-01-19)
 
 ### Bugfixes
