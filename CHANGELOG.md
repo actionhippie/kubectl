@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.14.0](https://github.com/actionhippie/kubectl/compare/v1.13.6...v1.14.0) (2026-04-27)
+
+### Dependencies
+
+* **minor:** update dependency kubernetes/kubernetes to v1.36.0 ([#122](https://github.com/actionhippie/kubectl/issues/122)) ([e1fab51](https://github.com/actionhippie/kubectl/commit/e1fab51c1522f105634e9c5a56d8ed0db7b74730))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([0ddcca7](https://github.com/actionhippie/kubectl/commit/0ddcca7843025ef4b343917dc026875a9371594e))
+
 ## [1.13.6](https://github.com/actionhippie/kubectl/compare/v1.13.5...v1.13.6) (2026-04-20)
 
 ### Dependencies
