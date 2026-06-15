@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.15.0](https://github.com/actionhippie/kubectl/compare/v1.14.1...v1.15.0) (2026-06-15)
+
+### Dependencies
+
+* **minor:** update alpine docker tag to v3.24 ([#124](https://github.com/actionhippie/kubectl/issues/124)) ([3afe58e](https://github.com/actionhippie/kubectl/commit/3afe58e6f89ac344e15a9302f13d0a147e7e1ab3))
+* **patch:** update dependency kubernetes/kubernetes to v1.36.2 ([#127](https://github.com/actionhippie/kubectl/issues/127)) ([dfe4ec2](https://github.com/actionhippie/kubectl/commit/dfe4ec2b25e1a4a0f1698b8101fd664a73f6194b))
+* **patch:** update docker digests ([6bbae1b](https://github.com/actionhippie/kubectl/commit/6bbae1b1fd415f8590c25b88886a68b9c752b186))
+* **patch:** update docker digests ([#125](https://github.com/actionhippie/kubectl/issues/125)) ([e9e6e2a](https://github.com/actionhippie/kubectl/commit/e9e6e2adf41a67a5053fb8a66d2cc0dbad47bf08))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([b467ba2](https://github.com/actionhippie/kubectl/commit/b467ba2cc529021887ae74df40bf8d2b633bbc68))
+* **flake:** updated lockfile [skip ci] ([a025c3d](https://github.com/actionhippie/kubectl/commit/a025c3df47b7200f05d1f0d0dda907a29eda0963))
+* **flake:** updated lockfile [skip ci] ([beeb567](https://github.com/actionhippie/kubectl/commit/beeb5674d21887adb07e0c137ee85d51c9015cb9))
+* **flake:** updated lockfile [skip ci] ([c3d7646](https://github.com/actionhippie/kubectl/commit/c3d76466acc38fb3e6c19b646620523585429c78))
+
 ## [1.14.1](https://github.com/actionhippie/kubectl/compare/v1.14.0...v1.14.1) (2026-05-18)
 
 ### Dependencies
