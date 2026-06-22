@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.15.1](https://github.com/actionhippie/kubectl/compare/v1.15.0...v1.15.1) (2026-06-22)
+
+### Dependencies
+
+* **patch:** update docker digests ([#128](https://github.com/actionhippie/kubectl/issues/128)) ([9ce80aa](https://github.com/actionhippie/kubectl/commit/9ce80aad13117a23afe76c293e3155d29361976f))
+* **patch:** update docker digests ([#129](https://github.com/actionhippie/kubectl/issues/129)) ([53fcec6](https://github.com/actionhippie/kubectl/commit/53fcec63cae20d71b5d943a1722ff742ea4b361a))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([734218d](https://github.com/actionhippie/kubectl/commit/734218d806c42a6429bc19f677802110c74cad5c))
+
 ## [1.15.0](https://github.com/actionhippie/kubectl/compare/v1.14.1...v1.15.0) (2026-06-15)
 
 ### Dependencies
